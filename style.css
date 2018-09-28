@@ -1686,6 +1686,10 @@ TESTIMONIAL
     padding-bottom: 120px !important;
 }
 
+.p160 {
+    padding-bottom: 160px !important;
+}
+
 .section.lb {
     border-top: 1px solid #eee;
 }
@@ -1696,6 +1700,7 @@ TESTIMONIAL
     margin: 0;
     color: #ffffff;
     font-weight: bold;
+    text-shadow: 3px 2px 3px #000;
 }
 
 .section.lb .tagline-message h3,
