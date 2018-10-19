@@ -264,11 +264,11 @@ HEADER
 .header-normal {
     position: relative;
     padding: 0 0 24px;
-    background-color: #fff;
+    background-color: #4ABDAC;
 }
 
 .header-normal .navbar-default .nav>li>a {
-    color: #848484 !important;
+    color: #fff !important;
 }
 
 .header.affix {
@@ -887,10 +887,11 @@ CONTACT
 }
 
 #map {
-    height: 350px;
+    height: 500px;
     position: relative;
     width: 100%;
     z-index: 1;
+    background: url(upload/obi2018.jpg);
 }
 
 .mapv2 {
@@ -1031,7 +1032,9 @@ SECTIONS
 }
 
 .section.db {
-    background-color: #000000;
+    background: url(images/news.jpg);
+    background-size: cover;
+    background-position: top;
 }
 
 .back {
@@ -1723,8 +1726,8 @@ TESTIMONIAL
 
 .tagline-message h3 {
     padding: 0;
-    font-size: 34px;
-    margin: 0;
+    font-size: 50px;
+    margin-top: 80px;
     color: #ffffff;
     font-weight: bold;
     text-shadow: 3px 2px 3px #000;
@@ -2441,4 +2444,12 @@ hr.invis {
     background-color: #F7B733;
     box-shadow: inset 0 0 0 0 #F7B733;
     transition: all ease 0.5s;
+}
+
+.contato{
+    height: 500px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background: url(upload/obi2018.jpg);
 }
