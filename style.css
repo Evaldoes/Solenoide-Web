@@ -1031,8 +1031,9 @@ SECTIONS
     background-color: #f6f6f6;
 }
 
+
 .section.db {
-    background: url(images/news.jpg);
+    background: #000;
     background-size: cover;
     background-position: top;
 }
@@ -2453,3 +2454,4 @@ hr.invis {
     z-index: 1;
     background: url(upload/obi2018.jpg);
 }
+
