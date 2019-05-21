@@ -1034,8 +1034,6 @@ SECTIONS
 
 .section.db {
     background: #000;
-    background-size: cover;
-    background-position: top;
 }
 
 .back {
@@ -2453,5 +2451,11 @@ hr.invis {
     width: 100%;
     z-index: 1;
     background: url(upload/obi2018.jpg);
+}
+
+.obi{
+    background: url(images/code.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
