@@ -123,7 +123,7 @@ h6 {
 
 .cop-logo img,
 a {
-    color: #000;
+    color: #ccc;
     text-decoration: none !important;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
@@ -221,7 +221,7 @@ HEADER
 ******************************************/
 
 .topbar {
-    background-color: #4ABDAC;
+    background-color:#151d2f;
     margin-bottom: 30px;
     padding: 12px 0 14px;
 }
@@ -264,7 +264,7 @@ HEADER
 .header-normal {
     position: relative;
     padding: 0 0 24px;
-    background-color: #4ABDAC;
+    background-color:#151d2f;
 }
 
 .header-normal .navbar-default .nav>li>a {
@@ -275,7 +275,7 @@ HEADER
     position: fixed;
     top: 0;
     z-index: 100;
-    background-color: #4ABDAC;
+    background-color:#151d2f;
     left: 0;
     padding: 15px 0;
     right: 0,
@@ -1948,6 +1948,7 @@ FOOTER
     background-color: #000;
     border-top: 1px solid #181818;
     padding: 30px 0;
+    height: 500px;
 }
 
 .copyrights li a {
@@ -2135,11 +2136,11 @@ COLOR BLUE
 ******************************************/
 
 .yamm .dropdown .dropdown-menu {
-    border-top-color: #01bacf;
+    border-top-color: #151d2f;
 }
 
 .iconitem a.shopicon i {
-    color: #01bacf !important;
+    color: #151d2f !important;
 }
 
 .shop-desc small,
@@ -2174,7 +2175,7 @@ a:focus,
 .modal .form-control,
 .form-control:focus,
 .btn-transparent {
-    border-color: #01bacf !important;
+    border-color: #151d2f !important;
 }
 
 .cb,
@@ -2195,8 +2196,8 @@ mark,
 .image-wrap:before,
 .image-wrap:after,
 .btn-primary {
-    border-color: #01bacf;
-    background-color: #01bacf;
+    border-color: #151d2f;
+    background-color: #151d2f;
     box-shadow: inset 0 0 0 0 #00a8bd;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
@@ -2370,7 +2371,7 @@ HOME
     display: inline-block;
     line-height: 0;
     transition: all .5s;
-    color: #4ABDAC;
+    color:#151d2f;
     font-size: 50px;
     text-align: center;
 }
@@ -2396,10 +2397,10 @@ HOME
 }
 
 .btn-primary {
-    border-color: #4ABDAC;
-    background-color: #4ABDAC;
-    box-shadow: inset 0 0 0 0 #4ABDAC;
-
+    border-color:#151d2f;
+    background-color:#151d2f;
+    box-shadow: inset 0 0 0 0#151d2f;
+}
 .btn {
     border-radius: 0;
     font-size: 14px;
@@ -2459,3 +2460,87 @@ hr.invis {
     background-position: center;
 }
 
+/*
+
+.rede a{
+    color: white !important;
+
+}
+*/
+.alinhador{
+    position: relative !important;
+    justify-content: space-evenly !important;
+    align-content: center !important;
+    display: flex !important;
+}
+
+
+.equipe{
+    width: 100% !important;
+    height: 400px !important;
+    position: relative;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.membro{
+    width: 250px;
+    height: 250px;
+    float: left;
+    position: relative;
+    border-radius: 130px;
+}
+
+.evaldo{
+    background: url(/images/equipe/evaldo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.yara{
+    background: url(/images/equipe/Yarinha.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-pessoa{
+    width: 250px;
+    height: 330px;
+    position: relative;
+    display: grid;
+    text-align: center;
+    float: left;
+}
+
+.cargo{
+    font-size: 19px;
+    font-weight: bold;
+    color: #118985;
+
+}
+
+.nome{
+
+}
+
+.box-titu{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.projeto-green{
+    color: #118985;
+}
+
+.projeto-orange{
+   color: #fc4a1a;
+}
+
+.projeto-back-green{
+    background-color:#118985 !important;
+}
+
+.back-quem{
+    background-color: red !important;
+}
