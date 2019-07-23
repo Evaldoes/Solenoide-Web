@@ -1,4 +1,4 @@
-       <section class="section gb ">
+       <section class="section gb " backgroung-color="#808080">
             <h3 id="quemsomos" class="box-titu projeto-green">Quem Somos?</h3>
             <div class="container">
                 <div class="row">
@@ -24,7 +24,8 @@ A busca pelo conhecimento e pelo simples prazer de aprender mais.</p>
                             </div>
                     </div>
                 </div>
-                <h3 class="box-titu projeto-green">Quem faz acontecer?</h3>
+
+                
                 <br>
                 <br>    
                 <div class="equipe">

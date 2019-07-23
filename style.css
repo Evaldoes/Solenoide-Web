@@ -1028,8 +1028,10 @@ SECTIONS
 }
 
 .section.gb {
-    background-color: #f6f6f6;
+    background-color:  #f6f6f6;
 }
+
+
 
 
 .section.db {
@@ -1593,11 +1595,13 @@ BLOG
     padding: 0 0 15px;
     margin: 0;
     color: #000000;
+    text-align: center;
 }
 
 .blog-desc p {
     padding: 0;
     margin: 0;
+
 }
 
 .stat-count h3,
@@ -2158,7 +2162,7 @@ blockquote:after,
 .yamm .hassubmenu li:hover a,
 .check li:before,
 .stat-count h3,
-.blog-desc h4:hover a,
+.blog-desc h4 a,
 .post-meta li:after,
 .course-box small,
 .course-details h4:hover a,
@@ -2387,6 +2391,15 @@ HOME
     border-top-width: 1px;
     border-top-color: #ffffff;
     width: 50%;
+    display: inline-block;
+}
+
+.elementor-section-separate {
+    border-top-style: dotted;
+    border-top-width: 5px;
+
+    border-top-color: #808080;
+    width: 1200px;
     display: inline-block;
 }
 

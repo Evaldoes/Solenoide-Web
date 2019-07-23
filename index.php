@@ -36,6 +36,11 @@
         </section>
 
     <?php include('includes/actions.php'); ?>
+
+    <div class="elementor-divider">
+        <span class="elementor-section-separate"></span>
+    </div>
+
     <?php include('quemsomos.php'); ?>
     <?php include('includes/footer.php'); ?>
     
